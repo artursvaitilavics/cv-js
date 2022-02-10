@@ -20,10 +20,9 @@ body {
   padding: 15px 5px 0px 15px;
 }
 
-img{
+#profile-picture{
   border-radius: 50%;
   padding-bottom: 15px;
-  
 }
 
 a, a:hover, a:focus, a:active {
@@ -169,3 +168,7 @@ a, a:hover, a:focus, a:active {
 #card-body{
   padding: 5px;
 }
+
+
+
+/* Tootlips */

@@ -1,13 +1,18 @@
-
+const renderPage = async () => {
+  const response = await getData();
+  await getHistory();
+  createHeader(response);
+  renderHistory(response);
+  setFooter(response);
+};
 
 renderPage();
 
+const btnSortByDate = document.querySelector("#sort-by-date");
+let dateSortTypeGrowing = false;
 
-const sortByDate = document.querySelector('#sort-by-date')
-
-sortByDate.addEventListener('click', () => {
-  // function that renders all history objects
-  // function passes in the list
-  renderHistory()
-  
-})
+btnSortByDate.addEventListener("click", () => {
+  dateSortTypeGrowing = !dateSortTypeGrowing;
+  sortByDate(dateSortTypeGrowing);
+  renderHistory();
+});

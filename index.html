@@ -23,12 +23,19 @@
         </div>
       </div>
       <div id="history__footer" class="rows__container">
-        
         <div class="history">
-          <div class="history-type">Education <button id="sort-by-date"><img src="images/sort-date-arrows.png" height="30px"></button></div>
-          <div id="education" class="history__container_title"></div>
-          <div class="history-type">Work</div>
+          <div class="history-type">
+            Work
+            <button
+              id="sort-by-date"
+              title="Sort work and education history by date. And have a great day!"
+            >
+              <img src="images/up-down.png" height="15px" />
+            </button>
+          </div>
           <div id="work" class="history__container_title"></div>
+          <div class="history-type">Education</div>
+          <div id="education" class="history__container_title"></div>
         </div>
         <div class="footer">
           <div id="software-skills" class="footer__container">
@@ -45,7 +52,9 @@
       </div>
     </div>
     <script src="scripts/requests/requests.js"></script>
-    <script src="scripts/requests/functions.js"></script>
+    <script src="scripts/requests/header.js"></script>
+    <script src="scripts/requests/history.js"></script>
+    <script src="scripts/requests/footer.js"></script>
     <script src="scripts/requests/cards.js"></script>
     <script src="scripts/cv-app.js"></script>
   </body>
