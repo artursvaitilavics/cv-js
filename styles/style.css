@@ -136,6 +136,7 @@ a, a:hover, a:focus, a:active {
   bottom: 0;
   background-color: rgba(187, 255, 0, 0);
   z-index: 2;
+  
 }
 
 .cardContent {
@@ -154,8 +155,7 @@ a, a:hover, a:focus, a:active {
   justify-content: start;
   flex-direction: column;
   
-  box-shadow: 10px 10px 10px 10px rgba(34, 34, 34, 0.26);
-
+  box-shadow: 10px 10px 10px 10px rgba(34, 34, 34, 0.11);
 }
 
 

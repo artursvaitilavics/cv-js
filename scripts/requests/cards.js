@@ -1,10 +1,11 @@
 const createCard = (element) => {
   const bodyElement = document.body;
-
+  
   const cardElement = document.createElement("div");
   const cardContent = document.createElement("div");
   const header = document.createElement("div");
   const body = document.createElement("div");
+  const rowElement = document.querySelector('.rows')
   const title = document.createElement("div");
   const subtitle = document.createElement("div");
   const date = document.createElement("div");
@@ -41,8 +42,14 @@ const createCard = (element) => {
 
   cardElement.style.display = "block";
   cardElement.addEventListener("click", () => {
+    rowElement.style.filter = "blur(0px)";
     cardElement.remove();
   });
 
+  rowElement.style.filter = "blur(5px)";
   bodyElement.appendChild(cardElement);
 };
+
+// body {
+//   filter: blur(2px);
+// }
