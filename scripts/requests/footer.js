@@ -46,6 +46,7 @@ const setFooterSubElements = async (list, footerElementType) => {
     footerSubElement.innerHTML = element;
 
     footerSubElement.addEventListener("click", () => {
+      // checkForNull()
       renderHistory(element)
     });
 

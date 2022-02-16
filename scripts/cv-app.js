@@ -2,7 +2,7 @@ const renderPage = async () => {
   const response = await getData();
   await getHistory();
   createHeader(response);
-  renderHistory(response);
+  renderFullHistory(response);
   setFooter(response);
 };
 

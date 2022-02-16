@@ -102,7 +102,7 @@
         "company": "OLV",
         "from": "2019-15-04",
         "to": "2021-15-06",
-        "software":["Clockify", "After Effects", "Blender", "Premiere Pro", "Photoshop", "VS Code"],
+        "software":["Clockify", "After Effects", "Blender", "Premiere Pro", "Photoshop", "VS Code", "Unity3D", "Substance Painter"],
         "description":"CG modeling, texturing, animation and compositing in AE for Large Resolution Video Walls for MS experience centers( use to called Stores)"
       },
       {

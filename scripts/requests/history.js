@@ -87,16 +87,28 @@ const sortByDate = async (sort) => {
   }
 };
 
+
 const renderHistory = async (software) => {
   clearHistory();
+
+
   let filteredWork = historyWork.filter((history) => {
     return history.software.includes(software);
   });
 
   if (filteredWork.length === 0) {
+    alert(`I didn't work with ${software} professionally.` )
     filteredWork = historyWork;
-  }
+  } 
 
   generateHistoryDOM(historyEducation, "education");
   generateHistoryDOM(filteredWork, "work");
+};
+
+
+const renderFullHistory = async () => {
+  clearHistory();
+
+  generateHistoryDOM(historyEducation, "education");
+  generateHistoryDOM(historyWork, "work");
 };
