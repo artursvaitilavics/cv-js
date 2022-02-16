@@ -1,2 +1,3 @@
+- create custom message/card instead of alert when unused software clicked
 - add filtering by software for education
 - refactor repeating code in history.js
