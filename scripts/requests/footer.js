@@ -40,9 +40,15 @@ const setFooterSubElements = async (list, footerElementType) => {
 
   Array.from(list).forEach((element) => {
     const footerSubElement = document.createElement("div");
+
     footerSubElement.classList.add("footer__sub__container");
+
     footerSubElement.innerHTML = element;
-    // console.log(element)
+
+    footerSubElement.addEventListener("click", () => {
+      renderHistory(element)
+    });
+
     if (footerElementType === "softwareSkills") {
       softwareSkillsElement.appendChild(footerSubElement);
     } else if (footerElementType === "tehnologySkills") {

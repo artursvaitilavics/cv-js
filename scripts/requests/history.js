@@ -17,11 +17,11 @@ const clearHistory = () => {
 const generateHistoryDOM = async (list, _type) => {
   // let list = [];
 
-  if (_type === "education") {
-    list = historyEducation;
-  } else {
-    list = historyWork;
-  }
+  // if (_type === "education") {
+  //   list = historyEducation;
+  // } else {
+  //   list = historyWork;
+  // }
 
   const educatioElement = document.querySelector("#education");
   const workHistoryElement = document.querySelector("#work");
@@ -87,9 +87,16 @@ const sortByDate = async (sort) => {
   }
 };
 
-const renderHistory = async () => {
+const renderHistory = async (software) => {
   clearHistory();
-  // await getHistory();
+  let filteredWork = historyWork.filter((history) => {
+    return history.software.includes(software);
+  });
+
+  if (filteredWork.length === 0) {
+    filteredWork = historyWork;
+  }
+
   generateHistoryDOM(historyEducation, "education");
-  generateHistoryDOM(historyWork, "work");
+  generateHistoryDOM(filteredWork, "work");
 };

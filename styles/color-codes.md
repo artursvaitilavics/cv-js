@@ -1,14 +1,50 @@
-blue-dark: 
-#2525A8
+- 002:
+    - orange:
 
-blue-desaturated: 
-#6B6BFF
+        E27D60
 
-blue-light: 
-#4E4EF5
+    - blue-light:
 
-brown: 
-#A88C0C
+        85DCBA
 
-yellow-light: 
-#F5DC6C
+    - orange-faint:
+
+        E8A87C
+
+    - pink:
+
+        C38D9E
+
+    - green:
+
+        41B3A3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- 001:
+    blue-dark: 
+    #2525A8
+
+    blue-desaturated: 
+    #6B6BFF
+
+    blue-light: 
+    #4E4EF5
+
+    brown: 
+    #A88C0C
+
+    yellow-light: 
+    #F5DC6C
