@@ -1,1 +1,2 @@
-- filter by software, by clicking on software name at the side
+- add filtering by software for education
+- refactor repeating code in history.js
