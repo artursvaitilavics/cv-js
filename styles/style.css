@@ -60,6 +60,26 @@ a:active {
   justify-content: center;
 }
 
+#sort-by-date {
+  position: relative;
+  left: 82.5%;
+  border: none;
+  background-color: #c38d9e;
+  padding: 5px 5px 5px 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+#sort-by-date:hover {
+  background-color: #e8a87c;
+ 
+  /* filter: drop-shadow(0px 5px 5px 0px rgba(0, 0, 0, 0.712)); */
+  transform: translateY(-3px);
+
+  cursor: pointer;
+}
+
 #history__footer {
   background-color: #85dcba;
   color: #000000;
@@ -86,7 +106,7 @@ a:active {
 .history__container {
   background-color: #41b3a3;
   padding: 10px 10px 10px 10px;
-  margin: 10px 10px 10px 10px;
+  margin: 0px 10px 10px 0px;
   border: 0;
   border-radius: 5px;
   /* padding-top: 0px; */
@@ -94,11 +114,13 @@ a:active {
   flex-grow: 1;
 
   transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
 .history__container:hover {
-  background-color: #E8A87C;
-  
+  background-color: #e8a87c;
+  transform: translateX(3px);
+
   cursor: pointer;
 }
 
@@ -106,6 +128,8 @@ a:active {
   flex-basis: 200px;
   flex-grow: 0;
   flex-shrink: 0;
+
+  /* margin: 0px 0px 0px 50px; */
 }
 
 .footer__container {
@@ -116,13 +140,23 @@ a:active {
 }
 
 .footer__sub__container {
-  padding: 0px 0px 0px 15px;
+  background-color: #c38d9e;
+  padding: 2px 5px 2px 15px;
+  margin: 5px 5px 2px 5px;
   font-weight: 100;
+  border-radius: 5px;
   transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
-.footer__sub__container:hover{
-  background-color: #E8A87C;
+.footer__sub__container:hover {
+  background-color: #e8a87c;
+
+
+
+  margin-left: -8px;
+
+  cursor: pointer;
 }
 /* .footer__sub__container {
   
@@ -173,6 +207,15 @@ a:active {
   padding: 5px;
 }
 
+#app-not-used-professionally {
+  background-color: #e8a87c;
+  padding: 5px;
+  border-radius: 5px 5px 5px 5px;
+  height: 100px;
+  text-align: center;
+  padding: 35px 0px 0px 0px;
+}
+
 /* Tootlips */
 .skill-button {
   background: none;
@@ -185,6 +228,8 @@ a:active {
   transition: 0.3s;
 }
 
-.skill-button:hover{
-  background-color: #E8A87C;
+.skill-button:hover {
+  background-color: #e8a87c;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }

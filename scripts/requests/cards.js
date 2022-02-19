@@ -1,11 +1,11 @@
 const createCard = (element) => {
   const bodyElement = document.body;
-  
+
   const cardElement = document.createElement("div");
   const cardContent = document.createElement("div");
   const header = document.createElement("div");
   const body = document.createElement("div");
-  const rowElement = document.querySelector('.rows')
+  const rowElement = document.querySelector(".rows");
   const title = document.createElement("div");
   const subtitle = document.createElement("div");
   const date = document.createElement("div");
@@ -16,8 +16,8 @@ const createCard = (element) => {
   header.classList.add("card__container");
   body.classList.add("card__container");
 
-  header.id = "card-header";
-  body.id = "card-body";
+  
+  
   // title.classList.add("card__container");
 
   if (element.jobTitle) {
@@ -31,9 +31,16 @@ const createCard = (element) => {
 
   body.innerHTML = element.description;
 
-  header.appendChild(title);
-  header.appendChild(subtitle);
-  header.appendChild(date);
+  if (element.jobTitle != "") {
+    header.appendChild(title);
+    header.appendChild(subtitle);
+    header.appendChild(date);
+    header.id = "card-header";
+    body.id = "card-body";
+  }else{
+    // header.id = "app-not-used-professionally";
+    cardContent.id = "app-not-used-professionally"
+  }
 
   cardContent.appendChild(header);
   cardContent.appendChild(body);

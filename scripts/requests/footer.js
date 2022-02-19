@@ -42,11 +42,15 @@ const setFooterSubElements = async (list, footerElementType) => {
     const footerSubElement = document.createElement("div");
 
     footerSubElement.classList.add("footer__sub__container");
+    // footerSubElement.
 
     footerSubElement.innerHTML = element;
 
+    footerSubElement.title = `Companies where I have worked with ${element}`
+
     footerSubElement.addEventListener("click", () => {
       // checkForNull()
+      scroll(0,0)
       renderHistory(element)
     });
 

@@ -15,14 +15,6 @@ const clearHistory = () => {
 };
 
 const generateHistoryDOM = async (list, _type) => {
-  // let list = [];
-
-  // if (_type === "education") {
-  //   list = historyEducation;
-  // } else {
-  //   list = historyWork;
-  // }
-
   const educatioElement = document.querySelector("#education");
   const workHistoryElement = document.querySelector("#work");
 
@@ -87,24 +79,22 @@ const sortByDate = async (sort) => {
   }
 };
 
-
 const renderHistory = async (software) => {
   clearHistory();
-
 
   let filteredWork = historyWork.filter((history) => {
     return history.software.includes(software);
   });
 
   if (filteredWork.length === 0) {
-    alert(`I didn't work with ${software} professionally.` )
+    // alert(`I didn't work with ${software} professionally.`);
+    createCard({'jobTitle':'', 'company':'', 'description':`I didn't work with ${software} professionally!`})
     filteredWork = historyWork;
-  } 
+  }
 
   generateHistoryDOM(historyEducation, "education");
   generateHistoryDOM(filteredWork, "work");
 };
-
 
 const renderFullHistory = async () => {
   clearHistory();
@@ -112,3 +102,10 @@ const renderFullHistory = async () => {
   generateHistoryDOM(historyEducation, "education");
   generateHistoryDOM(historyWork, "work");
 };
+
+
+// const alertNoJobHistoryWithThisSoftware = () => {
+//   clearHistory();
+//   const errorList = []
+//   generateHistoryDOM(errorList, 'work')
+// }

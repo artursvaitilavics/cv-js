@@ -12,16 +12,21 @@
         "subject": "Java from scratch (378 hours)",
         "from": "2020-15-04",
         "to": "2021-25-01",
-        "software":["Intellij", "MySQL Workbench", "VS Code", "Eclipse"],
-        "description":"Java, Design patterns, Software testing, Git, Databases, Framerworks: Spring, Hibernate, Front End: JS, HTML and CSS"
+        "software": ["Intellij", "MySQL Workbench", "VS Code", "Eclipse"],
+        "description": "Java, Design patterns, Software testing, Git, Databases, Framerworks: Spring, Hibernate, Front End: JS, HTML and CSS"
       },
       {
         "schoolTitle": "Liepajas Universitate",
         "subject": "Computer Sciences",
         "from": "2007-01-09",
         "to": "2009-23-12",
-        "software":["Premiere Pro", "Adobe Flash", "Dev C++", "Microsoft Visual Studio"],
-        "description":"Basics in programming, C++, ActionScript, Linear algebra, Mathematical analysis, Descrete mathematics, CorelDraw, Adobe Flash, Premiere Pro"
+        "software": [
+          "Premiere Pro",
+          "Adobe Flash",
+          "Dev C++",
+          "Microsoft Visual Studio"
+        ],
+        "description": "Basics in programming, C++, ActionScript, Linear algebra, Mathematical analysis, Descrete mathematics, CorelDraw, Adobe Flash, Premiere Pro"
       }
     ],
     "work": [
@@ -30,88 +35,107 @@
         "company": "Prime Focus",
         "from": "2010-01-10",
         "to": "2014-20-11",
-        "software":["Fusion", "Maya", "Nuke", "Syntheyes", "Deadline"],
-        "description":"Worked with software: Fusion, Filme Maker Pro. My tasks included Rig removal, s3D conversion, managing team of 8-15 artists, training new artists, delegating tasks, QA final output, script QA, assist with problems"
+        "software": ["Fusion", "Maya", "Nuke", "Syntheyes", "Deadline"],
+        "description": "Worked with software: Fusion, Filme Maker Pro. My tasks included Rig removal, s3D conversion, managing team of 8-15 artists, training new artists, delegating tasks, QA final output, script QA, assist with problems"
       },
       {
         "jobTitle": "S3D, VFX and CGI generalist",
         "company": "Prime Focus and Freelance",
         "from": "2014-20-11",
         "to": "2015-15-08",
-        "software":["Fusion", "Maya", "Nuke", "Syntheyes"],
-        "description":"Worked with softwares such as Fusion for rig removal and s3D conversion, Syntheyes for matchmove, Maya for Environment modeling and File Maker Pro for asset managment."
+        "software": ["Fusion", "Maya", "Nuke", "Syntheyes"],
+        "description": "Worked with softwares such as Fusion for rig removal and s3D conversion, Syntheyes for matchmove, Maya for Environment modeling and File Maker Pro for asset managment."
       },
       {
         "jobTitle": "S3D trainer",
         "company": "Prime Focus",
         "from": "2015-15-08",
         "to": "2016-15-03",
-        "software":["Fusion", "Nuke", "File Maker Pro", "Deadline"],
-        "description":"Trained over 300 artists in s3D conversion, new artists, and up the skill for senior artists. All training done during production."
+        "software": ["Fusion", "Nuke", "File Maker Pro", "Deadline"],
+        "description": "Trained over 300 artists in s3D conversion, new artists, and up the skill for senior artists. All training done during production."
       },
       {
         "jobTitle": "CGI/VFX Generalist",
         "company": "Freelance",
         "from": "2016-15-03",
         "to": "2017-15-04",
-        "software":["Nuke", "Maya", "Redshift"],
-        "description":"Worked on two full cgi projects. Animated music video and promo video for textile factory."
+        "software": ["Nuke", "Maya", "Redshift"],
+        "description": "Worked on two full cgi projects. Animated music video and promo video for textile factory."
       },
       {
         "jobTitle": "CGI Generalist/ Lighting artist",
         "company": "Blue Zoo",
         "from": "2017-15-04",
         "to": "2017-15-06",
-        "software":["Maya", "After Effects", "Ftrack"],
-        "description":"Lighting and Compositing for animated comercial for Clarks shoes."
+        "software": ["Maya", "After Effects", "Ftrack"],
+        "description": "Lighting and Compositing for animated comercial for Clarks shoes."
       },
       {
         "jobTitle": "Compositor",
         "company": "Arx Anima",
         "from": "2017-15-06",
         "to": "2017-15-11",
-        "software":["Nuke", "Shotgun"],
-        "description":"Compositing artist for Talking Tom Youtube serise. Done more than 3 episodes during 4 month period."
+        "software": ["Nuke", "Shotgun"],
+        "description": "Compositing artist for Talking Tom Youtube serise. Done more than 3 episodes during 4 month period."
       },
       {
         "jobTitle": "Compositor",
         "company": "Doodle Productions",
         "from": "2017-15-11",
         "to": "2018-15-06",
-        "software":["Nuke", "Ftrack"],
-        "description":"Compositing for Messy goes to Okido kids series. Fast pace work with high level of consistency."
+        "software": ["Nuke", "Ftrack"],
+        "description": "Compositing for Messy goes to Okido kids series. Fast pace work with high level of consistency."
       },
       {
         "jobTitle": "Compositor",
         "company": "Blue Zoo",
         "from": "2018-15-06",
         "to": "2018-15-09",
-        "software":["Ftrack", "Maya", "Redshift", "Nuke"],
-        "description":"Lighting artist for teaser trailer for Magic Molly. Compositing artist for Playmobil spy episode."
+        "software": ["Ftrack", "Maya", "Redshift", "Nuke"],
+        "description": "Lighting artist for teaser trailer for Magic Molly. Compositing artist for Playmobil spy episode."
       },
       {
         "jobTitle": "Compositor",
         "company": "UPP",
         "from": "2018-15-09",
         "to": "2019-15-04",
-        "software":["Shotgun", "Nuke", "Blender"],
-        "description":"Compositing artist for feature films and Netflix documentary"
+        "software": [
+          "Shotgun",
+          "Nuke",
+          "Blender",
+          "Visual Studio Code",
+          "PyCharm",
+          "Python Nuke API"
+        ],
+        "description": "Compositing artist for feature films and Netflix documentary"
       },
       {
         "jobTitle": "CGI/VFX Generalist",
         "company": "OLV",
         "from": "2019-15-04",
         "to": "2021-15-06",
-        "software":["Clockify", "After Effects", "Blender", "Premiere Pro", "Photoshop", "VS Code", "Unity3D", "Substance Painter"],
-        "description":"CG modeling, texturing, animation and compositing in AE for Large Resolution Video Walls for MS experience centers( use to called Stores)"
+        "software": [
+          "Clockify",
+          "After Effects",
+          "Blender",
+          "Premiere Pro",
+          "Photoshop",
+          "VS Code",
+          "Unity3D",
+          "Substance Painter",
+          "Visual Studio Code",
+          "PyCharm",
+          "Python Blender API"
+        ],
+        "description": "CG modeling, texturing, animation and compositing in AE for Large Resolution Video Walls for MS experience centers( use to called Stores)"
       },
       {
         "jobTitle": "CGI Generalist - E-Comerce",
         "company": "Ubiquiti Inc",
         "from": "2021-15-06",
         "to": "present",
-        "software":["Cinema 4D", "Nuke", "Illustrator", "Photoshop"],
-        "description":"Material work, and lighting product renders for Store and Print. Highest consistency and qualty required."
+        "software": ["Cinema 4D", "Nuke", "Illustrator", "Photoshop"],
+        "description": "Material work, and lighting product renders for Store and Print. Highest consistency and qualty required."
       }
     ]
   },
@@ -154,7 +178,8 @@
       "Mockito",
       "Angular",
       "React",
-      "Python Blender API"
+      "Python Blender API",
+      "Python Nuke API"
     ],
     "languages": ["Latvian", "English", "Russian"]
   }

@@ -14,5 +14,5 @@ let dateSortTypeGrowing = false;
 btnSortByDate.addEventListener("click", () => {
   dateSortTypeGrowing = !dateSortTypeGrowing;
   sortByDate(dateSortTypeGrowing);
-  renderHistory();
+  renderFullHistory();
 });
