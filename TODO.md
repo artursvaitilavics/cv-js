@@ -1,3 +1,2 @@
-- create custom message/card instead of alert when unused software clicked
-- add filtering by software for education
-- refactor repeating code in history.js
+- sort education as well, so there is no "Didn't work with this software proffesionaly" crap
+- create third education - "self learning" or something of sorts 
