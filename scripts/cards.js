@@ -51,6 +51,7 @@ const createCard = (element) => {
   cardElement.addEventListener("click", () => {
     rowElement.style.filter = "blur(0px)";
     cardElement.remove();
+    renderFullHistory()
   });
 
   rowElement.style.filter = "blur(5px)";
