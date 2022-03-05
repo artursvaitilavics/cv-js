@@ -130,6 +130,7 @@
           "Blender",
           "Visual Studio Code",
           "PyCharm",
+          "Python",
           "Python Nuke API"
         ],
         "description": "Compositing artist for feature films and Netflix documentary"
@@ -150,6 +151,7 @@
           "Substance Painter",
           "Visual Studio Code",
           "PyCharm",
+          "Python",
           "Python Blender API"
         ],
         "description": "CG modeling, texturing, animation and compositing in AE for Large Resolution Video Walls for MS experience centers( use to called Stores)"
