@@ -1,7 +1,7 @@
 const setFooterSubElements = async (list, footerElementType) => {
   const softwareSkillsElement = document.querySelector("#software-skills");
   const tehnologySkillsElement = document.querySelector("#tehnology-skills");
-  const languagesElement = document.querySelector("#languagles");
+  const languagesElement = document.querySelector("#languages");
   const contactDetailsElement = document.querySelector("#contact-details");
 
   if (footerElementType === "contactDetails") {
@@ -41,20 +41,24 @@ const setFooterSubElements = async (list, footerElementType) => {
   Array.from(list).forEach((element) => {
     const footerSubElement = document.createElement("div");
 
-    footerSubElement.classList.add("footer__sub__container");
+    if (footerElementType !== "languages") {
+      footerSubElement.classList.add("footer__sub__container");
+
+      footerSubElement.title = `Companies where I have worked with ${element}`;
+    }
 
     footerSubElement.innerHTML = element;
 
-    footerSubElement.title = `Companies where I have worked with ${element}`;
-
     footerSubElement.addEventListener("click", () => {
       // checkForNull()
-      scroll({
-        top: 0,
-        left: 100,
-        behavior: "smooth",
-      });
-      setActiveHistoryFromSoftware(element);
+      if (footerElementType !== "languages") {
+        scroll({
+          top: 0,
+          left: 100,
+          behavior: "smooth",
+        });
+        setActiveHistoryFromSoftware(element);
+      }
       // renderHistory(element)
     });
 

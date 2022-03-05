@@ -67,6 +67,6 @@ const renderHistory = async () => {
 const renderFullHistory = async () => {
   clearHistory();
   activeHistoryWork = fullWorkHistory;
-  generateHistoryDOM(fullEducationHistory, "education");
-  generateHistoryDOM(fullWorkHistory, "work");
+  generateHistoryDOM(activeHistoryEducation, "education");
+  generateHistoryDOM(activeHistoryWork, "work");
 };

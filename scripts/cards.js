@@ -16,8 +16,6 @@ const createCard = (element) => {
   header.classList.add("card__container");
   body.classList.add("card__container");
 
-  
-  
   // title.classList.add("card__container");
 
   if (element.jobTitle) {
@@ -37,9 +35,9 @@ const createCard = (element) => {
     header.appendChild(date);
     header.id = "card-header";
     body.id = "card-body";
-  }else{
+  } else {
     // header.id = "app-not-used-professionally";
-    cardContent.id = "app-not-used-professionally"
+    cardContent.id = "app-not-used-professionally";
   }
 
   cardContent.appendChild(header);
@@ -51,7 +49,11 @@ const createCard = (element) => {
   cardElement.addEventListener("click", () => {
     rowElement.style.filter = "blur(0px)";
     cardElement.remove();
-    renderFullHistory()
+    if (cardContent.id == "app-not-used-professionally") {
+      renderFullHistory();
+    } else {
+      renderHistory();
+    }
   });
 
   rowElement.style.filter = "blur(5px)";

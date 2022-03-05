@@ -27,6 +27,31 @@
           "Microsoft Visual Studio"
         ],
         "description": "Basics in programming, C++, ActionScript, Linear algebra, Mathematical analysis, Descrete mathematics, CorelDraw, Adobe Flash, Premiere Pro"
+      },
+      {
+        "schoolTitle": "Self Learning",
+        "subject": "VFX and Programming",
+        "from": "2007-01-09",
+        "to": "present",
+        "software": [
+          "Visual Studio Code",
+          "IntelliJ IDEA",
+          "PyCharm",
+          "Cinema 4D",
+          "Maya",
+          "Blender",
+          "Houdini",
+          "Nuke",
+          "After Effects",
+          "Photoshop",
+          "Illustrator",
+          "Fusion",
+          "Unity3D",
+          "Unreal Engine",
+          "Substance Painter",
+          "Mari"
+        ],
+        "description": "Alway larning any new software required or possibly required for my current proffesion or desired future proffesion."
       }
     ],
     "work": [

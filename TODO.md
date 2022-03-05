@@ -1,2 +1,1 @@
-- sort education as well, so there is no "Didn't work with this software proffesionaly" crap
-- create third education - "self learning" or something of sorts 
+- style the website
